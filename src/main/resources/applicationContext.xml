@@ -5,4 +5,8 @@
 
     <bean id="userService" class="me.yifeiyuan.UserServiceImpl" scope="prototype"/>
 
+    <bean id="user" class="me.yifeiyuan.User">
+        <property name="name" value="Fitz"/>
+        <property name="age" value="6"/>
+    </bean>
 </beans>
